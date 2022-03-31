@@ -1,5 +1,5 @@
-name: intento_urbe
-description: A new Flutter project.
+name: picsum-scroller-app
+description: Una Aplicación de Flutter para renderizar y visualizar imagenes proveidas por Picsum.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.

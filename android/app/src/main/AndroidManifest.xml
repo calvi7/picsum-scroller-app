@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.picsum-scroller-app">
+    package="com.example.picsum_scroller_app">
    <application
         android:label="Picsum Scroller"
         android:name="${applicationName}"

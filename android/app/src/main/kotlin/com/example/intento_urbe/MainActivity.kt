@@ -1,4 +1,4 @@
-package com.example.intento_urbe
+package com.example.picsum_scroller_app
 
 import io.flutter.embedding.android.FlutterActivity
 

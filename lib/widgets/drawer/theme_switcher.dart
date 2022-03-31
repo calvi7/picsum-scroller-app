@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:intento_urbe/providers/theme_provider.dart';
+import 'package:picsum_scroller_app/providers/theme_provider.dart';
 import 'package:provider/provider.dart';
 
 class ThemeSwitcher extends StatelessWidget {

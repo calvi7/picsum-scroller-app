@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:intento_urbe/providers/models/picsum_image.dart';
+import 'package:picsum_scroller_app/providers/models/picsum_image.dart';
 
 import 'parallax.dart';
 

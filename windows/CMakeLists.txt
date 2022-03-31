@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(intento_urbe LANGUAGES CXX)
+project(picsum_scroller_app LANGUAGES CXX)
 
-set(BINARY_NAME "intento_urbe")
+set(BINARY_NAME "picsum_scroller_app")
 
 cmake_policy(SET CMP0063 NEW)
 

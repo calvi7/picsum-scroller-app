@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:intento_urbe/providers/models/user_model.dart';
+import 'package:picsum_scroller_app/providers/models/user_model.dart';
 
 import 'drawer_user_card.dart';
 import 'theme_switcher.dart';

@@ -1,4 +1,4 @@
-# Picsum-Scroller-App
+# picsum_scroller_app
 
 A new Flutter project.
 

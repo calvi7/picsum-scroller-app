@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:intento_urbe/presentation/home_page/widgets/parallax/parallax.dart';
+import 'package:picsum_scroller_app/presentation/home_page/widgets/parallax/parallax.dart';
 
 class ParallaxImage extends StatelessWidget {
   final String url;

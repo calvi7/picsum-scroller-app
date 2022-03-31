@@ -1,6 +1,6 @@
 {
-    "name": "intento_urbe",
-    "short_name": "intento_urbe",
+    "name": "picsum_scroller_app",
+    "short_name": "picsum_scroller_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

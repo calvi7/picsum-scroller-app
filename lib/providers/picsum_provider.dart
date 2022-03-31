@@ -20,8 +20,6 @@ class PicsumProvider extends ChangeNotifier {
     });
     _currentPage++;
 
-    print(uri.toString());
-
     var response = await http.get(uri);
 
     List<dynamic> jsonResponse = json.decode(response.body);

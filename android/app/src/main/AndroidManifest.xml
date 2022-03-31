@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.intento_urbe">
+    package="com.example.picsum_scroller_app">
    <application
-        android:label="intento_urbe"
+        android:label="Picsum Scroller"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

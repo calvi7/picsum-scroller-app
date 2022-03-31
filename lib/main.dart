@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:intento_urbe/providers/login_provider.dart';
-import 'package:intento_urbe/providers/picsum_provider.dart';
-import 'package:intento_urbe/providers/theme_provider.dart';
+import 'package:picsum_scroller_app/providers/login_provider.dart';
+import 'package:picsum_scroller_app/providers/picsum_provider.dart';
+import 'package:picsum_scroller_app/providers/theme_provider.dart';
 import 'package:provider/provider.dart';
 import 'presentation/home_page/home_page.dart';
 
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Awesome Images',
       theme: themeProvider.currentTheme,
-      home: const MyHomePage(title: 'Awesome Images'),
+      home: const MyHomePage(title: 'Picsum Scroller'),
     );
   }
 }

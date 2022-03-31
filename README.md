@@ -1,4 +1,4 @@
-# intento_urbe
+# picsum_scroller_app
 
 A new Flutter project.
 

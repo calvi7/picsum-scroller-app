@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:intento_urbe/api/picsum_api.dart';
+import 'package:intento_urbe/providers/picsum_provider.dart';
 import 'package:provider/provider.dart';
 import 'presentation/home_page/home_page.dart';
 
@@ -8,7 +8,7 @@ void main() {
     MultiProvider(
       providers: [
         ChangeNotifierProvider(
-          create: (_) => PicsumApi(),
+          create: (_) => PicsumProvider(),
         )
       ],
       child: const MyApp(),

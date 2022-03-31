@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:intento_urbe/api/models/picsum_image.dart';
-import 'package:intento_urbe/api/picsum_api.dart';
+import 'package:intento_urbe/providers/models/picsum_image.dart';
+import 'package:intento_urbe/providers/picsum_provider.dart';
 import 'package:intento_urbe/presentation/home_page/widgets/parallax/parallax.dart';
 import 'package:provider/provider.dart';
 
@@ -11,7 +11,7 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final picsumProvider = Provider.of<PicsumApi>(context);
+    final picsumProvider = Provider.of<PicsumProvider>(context);
     final List<PicsumImage> imageList = picsumProvider.imageList;
     return Scaffold(
       appBar: AppBar(

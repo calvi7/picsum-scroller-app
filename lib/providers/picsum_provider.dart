@@ -4,12 +4,12 @@ import 'dart:convert';
 
 import 'models/picsum_image.dart';
 
-class PicsumApi extends ChangeNotifier {
+class PicsumProvider extends ChangeNotifier {
   static const String _apiLink = 'picsum.photos';
   List<PicsumImage> imageList = [];
   int _currentPage = 0;
 
-  PicsumApi() {
+  PicsumProvider() {
     loadPost();
   }
 

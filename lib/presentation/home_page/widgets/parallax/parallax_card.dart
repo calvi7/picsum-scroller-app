@@ -22,20 +22,12 @@ class ParallaxCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(16),
           child: Stack(
             children: [
-              Flow(
-                delegate: ParallaxFlowDelegate(
-                  scrollable: Scrollable.of(context)!,
-                  listItemContext: context,
-                  backgroundImageKey: _backgroundImageKey,
-                ),
-                children: [
-                  ParallaxImage(
-                      url: image.downloadUrl,
-                      backgroundImageKey: _backgroundImageKey),
-                  const ParallaxGradient(),
-                  ParallaxAuthor(author: image.author),
-                ],
+              ParallaxImage(
+                url: image.downloadUrl,
+                backgroundImageKey: _backgroundImageKey,
               ),
+              const ParallaxGradient(),
+              ParallaxAuthor(author: image.author),
             ],
           ),
         ),

@@ -6,6 +6,8 @@ class ThemeProvider extends ChangeNotifier {
 
   late ThemeData currentTheme;
 
+  bool switchValue = true;
+
   ThemeProvider() {
     currentTheme = _darkTheme;
   }
@@ -13,6 +15,7 @@ class ThemeProvider extends ChangeNotifier {
   void switchTheme(ThemeData theme) {
     currentTheme =
         theme.brightness == Brightness.dark ? _lightTheme : _darkTheme;
+    switchValue = !switchValue;
     notifyListeners();
   }
 }
